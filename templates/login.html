@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<head>
+    <title>Ubonratchatani | Login</title>
+    <meta charset="UTF-8">
+    <link href="{{ url_for('static', filename='css/default.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/login.css') }}" rel="stylesheet">
+</head>
+<body>
+    <header></header>
+    <div class="container">
+        <form>
+            <div class="box">
+                <h1>Login</h1>
+                <input type="text" placeholder="Username">
+                <input type="text" placeholder="Password">
+                <input type="submit">
+
+                <p>Not a member..? sign up here >><a href="{{ url_for('signup') }}">here!</a><< </p>
+            </div>
+        </form>
+    </div>
+</body>

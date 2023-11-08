@@ -1,0 +1,72 @@
+header {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../img/detail-on-outside-of.jpg");
+    background-size: cover;
+    overflow: hidden;
+    filter: blur(10px);
+}
+
+.container {
+    position: absolute; 
+    width: 600px;
+    height: 350px;
+    background-color: #ffffff75;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 30%;
+}
+
+.container .box {
+    margin-top: 20px;
+    color: #000;
+    text-align: center;
+    font-size: 18px;
+    align-items: center;
+    
+}
+
+.container .box h1 {
+    color: #000;
+    text-align: center;
+    font-size: 42px;
+    align-items: center;
+}
+
+.container .box a {
+    color: aquamarine;
+    font-weight: 400;
+}
+
+.container .box input[type=text]{
+    display: flex;
+    padding: 12px;
+    border-radius: 50px;
+    width: 90%;
+    margin: 20px 30px;
+    outline: none;
+    border: #fff 2px solid;
+    transition: all 0.15s ease;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.container .box input[type=text]:focus {
+    border: #a7a7a720 2px solid;
+}
+
+.container .box input[type=submit] {
+    margin: 14px;
+    padding: 12px;    
+    border-radius: 10px;
+    border: 0;
+    background-color: greenyellow;
+    transition: all 0.25s ease;
+    font-size: 18px;
+    cursor: pointer;
+}
+.container .box input[type=submit]:hover {
+    background-color: aquamarine;
+}
